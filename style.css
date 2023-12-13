@@ -358,8 +358,8 @@ input[type="checkbox"]{
     .main-bx{
         display: flex;
         flex-direction: column;
-        min-height: 110vh;
-        overflow-x: hidden;
+        min-height: 120vh;
+        overflow-x: auto;
     }
     .img1{
         height: 60vw;
