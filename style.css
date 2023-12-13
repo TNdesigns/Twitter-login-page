@@ -353,7 +353,6 @@ input[type="checkbox"]{
     }
     html,body{
         overflow-x: hidden;
-        overflow-y: auto;
         scroll-behavior: smooth;
     }
     .main-bx{
@@ -361,7 +360,6 @@ input[type="checkbox"]{
         flex-direction: column;
         min-height: 120vh;
         overflow-x: hidden;
-        overflow-y: auto;
     }
     .img1{
         height: 60vw;
