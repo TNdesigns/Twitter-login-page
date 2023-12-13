@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter login page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="main-bx">
+            <div class="side1">
+                <h1>Twitter</h1>
+                <p>See whats happening in the world right now</p>
+                <img class="img1" src="images/blue_twitter_logo.png" alt="twitter-logo">
+            </div>
+            <div class="side2">
+                <form class="login-bx" action="#">
+                    <input type="text" id="email" placeholder="Email or Mobile Number" name="email">
+                    <p id="emsg">Wrong email or mobile number format</p>
+                    <br>
+                    <input type="password" id="pwrd" placeholder="Password" name="password">
+                    <p id="emsg2">Wrong password format</p>
+                    <br>
+                    <button id="btn1">Log in</button>
+                    <br>
+                    <span>Forgot Password</span>
+                    <br>
+                    <button id="btn2">Create new account</button>
+                </form>
+            </div>
+            <div id="signup-bx">
+                <form class="form2">
+                <div id="xbtn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                </div>
+                <h2>Sign Up</h2>
+                <p class="p0">It's quick & easy!</p>
+                <hr>
+                <input type="text" placeholder="First Name" id="fname">
+                <p id="etxt1">First Name cannot be empty</p>
+                <input type="text" placeholder="Last Name" id="lname">
+                <p id="etxt2">Last Name cannot be empty</p>
+                <br>
+                <input type="text" placeholder="Email or Mobile Number" id="eml-num">
+                <p id="etxt3">Wrong Email or Number format</p>
+                <br>
+                <input type="password" placeholder="New Password" id="pwrd2">
+                <p id="etxt4">Wrong password format</p>
+                <label class="bday">
+                    <p>Birthday</p>
+                <select id="month">
+                    <option value="">Month</option>
+                    <option value="01">January</option>
+                    <option value="02">Feburary</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select id="day">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select id="year">
+                    <option value="">Year</option>
+                </select>
+                <p id="etx">Please select your birthday</p>
+                </label>
+                <label class="gender">
+                    <p>Gender</p>
+                    <div id="female1">
+                        <p>Female <input type="checkbox" id="female"></p>
+                    </div>
+                    <div id="male1">
+                        <p>Male <input type="checkbox" id="male"></p>                        
+                    </div>
+                    <p id="etx2">Please select your gender</p>
+                </label>
+                <p class="tnc">Bv clicking Sign Up, you agree to our <span>Terms.</span> Learn how we collect, use anc
+                    share your data in our <span>Data Policy</span> and how we use cookies and similar
+                    technology in our <span>Cookies Policy.</span> You may receive SMS Notifications from
+                    us and can opt out any time.
+                </p>
+                <button id="btn3">Sign Up</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

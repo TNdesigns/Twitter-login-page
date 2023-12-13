@@ -1,0 +1,526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    overflow-x: hidden;
+    background-color: deepskyblue;
+}
+.img1{
+    height: 700px;
+    width: 650px;
+    position: relative;
+    top: -200px;
+    left: 0px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+.main-bx{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -80px;
+}
+.side1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    top: 250px;
+}
+.side2{
+    height: 300px;
+    width: 420px;
+    background-color: white;
+    border-radius: 20px;
+}
+.side1 > h1{
+    font-family: "Rubik";
+    font-size: 52px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.side1 > p{
+    font-family: "Rubik";
+    font-size: 18px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    z-index: 1;
+}
+.login-bx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.login-bx > input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: lightgrey;
+}
+#btn1{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: "Rubik";
+    border: none;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+#btn2{
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    font-family: "Rubik";
+    background-color:mediumseagreen;
+    border: none;
+    cursor: pointer;
+}
+.login-bx > span{
+    position: relative;
+    top: -10px;
+    left: 0px;
+    color: blue;
+    font-size: 12px;
+    font-family: "Rubik";
+}
+#emsg{
+    visibility: hidden;
+    font-size: 10px;
+    font-family: "Rubik";
+    position: absolute;
+    top: 36px;
+    left: 70px;
+    color: crimson;
+}
+#emsg2{
+    visibility: hidden;
+    font-size: 10px;
+    font-family: "Rubik";
+    position: absolute;
+    top: 88px;
+    left: 70px;
+    color: crimson;
+}
+#signup-bx{
+    visibility: hidden;
+    position: absolute;
+    top: 80px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(44, 42, 42, 0.323);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 310px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+#xbtn > .bar1{
+    height: 2px;
+    width: 18px;
+    background-color: black;
+    rotate: 52deg;
+}
+#xbtn > .bar2{
+    height: 2px;
+    width: 18px;
+    background-color: black;
+    rotate: -53deg;
+}
+#xbtn{
+    position: relative;
+    top: -70px;
+    left: 135px;
+    cursor: pointer;
+}
+
+.form2 > h2{
+    font-family: "Rubik";
+    font-weight: 400;
+    position: relative;
+    top: -40px;
+    left: -95px;
+}
+.form2 > .p0{
+    font-family: "Rubik";
+    font-size: 13px;
+    position: relative;
+    top: -40px;
+    left: -87px;
+}
+#fname{
+    height: 23px;
+    width: 127px;
+    position: relative;
+    top: -30px;
+    left: -72px;
+}
+#lname{
+    height: 23px;
+    width: 127px;
+    position: relative;
+    top: -57px;
+    left: 68px;
+}
+#eml-num{
+    height: 23px;
+    width: 265px;
+    position: relative;
+    top: -60px;
+    left: -1px;
+}
+#pwrd2{
+    height: 23px;
+    width: 265px;
+    position: relative;
+    top: -62px;
+    left: -1px;
+}
+.bday{
+    position:relative;
+    top: -30px; 
+    left: 0px;
+
+}
+.bday > p{
+    font-size: 13px;
+    font-family: "Rubik";
+    position: relative;
+    left: 3px;
+}
+#female1, #male1{
+    height: 15px;
+    width: 70px;
+    border-color: lightgrey;
+    border: solid 0.5px;
+}
+input[type="checkbox"]:checked{
+    background-color: deepskyblue;
+}
+input[type="checkbox"]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid .5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.gender{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: -49px;
+    gap: 40px;
+}
+.gender > p{
+    position: relative;
+    top: -18px;
+    left: 84px;
+    font-size: 13px;
+    font-family: "Rubik";
+}
+.tnc{
+    font-family: "Rubik";
+    font-size: 9px;
+    margin-right: 41px;
+    position: relative;
+    top: 25px;
+    left: 21px;
+}
+.tnc > span{
+    color: blue;
+}
+#female1 > p > #female{
+    position: relative;
+    top: 1px;
+    left: 13px;
+}
+#female1 > p{
+    font-size: 11px;
+    font-family: "Rubik";
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+#male1 > p > #male{
+    position: relative;
+    top: 1px;
+    left: 27px;
+}
+#male1 > p{
+    font-size: 11px;
+    font-family: "Rubik";
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+#btn3{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    height: 30px;
+    width: 270px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    border: none;
+    font-family: "Rubik";
+    cursor:pointer;
+}
+#etxt1{
+    position: absolute;
+    top: 250px;
+    left: 505px;
+    color: crimson;
+    font-size: 10px;
+    font-family: "Rubik";
+    opacity: 0;
+}
+#etxt2{
+    position: absolute;
+    top: 250px;
+    left: 644px;
+    color: crimson;
+    font-size: 10px;
+    font-family: "Rubik";
+    opacity: 0;
+}
+#etxt3{
+    position: absolute;
+    top: 294px;
+    left: 506px;
+    color: crimson;
+    font-size: 10px;
+    font-family: "Rubik";
+    opacity: 0;
+}
+#etxt4{
+    position: absolute;
+    top: 335px;
+    left: 506px;
+    color: crimson;
+    font-size: 10px;
+    font-family: "Rubik";
+    opacity: 0;
+}
+#etx{
+    position: absolute;
+    top: 3px;
+    left: 62px;
+    font-size: 10px;
+    color: crimson;
+    font-family: "Rubik";
+    opacity: 0;
+}
+#etx2{
+    position: absolute;
+    top: -15px;
+    left: 138px;
+    font-size: 10px;
+    color: crimson;
+    font-family: "Rubik";
+    opacity: 0;
+    margin-right: -20px;
+}
+
+@media screen and (min-device-width:300px) and (max-device-width:399px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    html,body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .main-bx{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .img1{
+        height: 60vw;
+        width: 72vw;
+        top: -46vw;
+        left: -10vw;
+    }
+    .side1 > h1{
+        top: -50vw;
+        left: 0vw;
+    }
+    .side1 > p{
+        top: -50vw;
+        left: 0vw;
+        margin-right: -6vw;
+        font-size: 17px;
+    }
+    .side2{
+        width: 90vw;
+        position: relative;
+        top: 25vw;
+        left: 0vw;
+    }
+    .login-bx{
+        overflow: hidden;
+    }
+    .login-bx > input{
+        width: 75vw;
+    }
+    .login-bx > #btn1{
+        width: 75vw;
+    }
+    #signup-bx{
+        /*overflow-x: hidden;*/
+        width: 100vw;
+    }
+    .form2{
+        /*overflow-x: hidden;*/
+        z-index: 2;
+    }
+    #etxt1, #etxt2, #etxt3, #etxt4{
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+    }
+    #fname{
+        top: -5vw;
+        left: -20vw;
+    }
+    #etxt1{
+        top: -3vw;
+        left: -19vw;
+    }
+    #etxt2{
+        top: -14vw;
+        left: 19vw;
+    }
+    #etxt3{
+        top: -15vw;
+        left: -0vw;
+    }
+    #etxt4{
+        top: -15vw;
+        left: -0vw;
+    }
+    #etx{
+        top: .5vw;
+        left: 17vw;
+        margin-right: -20vw;
+    }
+    #xbtn{
+        top: -14vw;
+        left: 38vw;
+    }
+}
+@media screen and (min-device-width:400px) and (max-device-width:499px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    html,body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .main-bx{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .img1{
+        height: 60vw;
+        width: 72vw;
+        top: -46vw;
+        left: -10vw;
+    }
+    .side1 > h1{
+        top: -50vw;
+        left: 0vw;
+    }
+    .side1 > p{
+        top: -50vw;
+        left: 0vw;
+        margin-right: -6vw;
+        font-size: 17px;
+    }
+    .side2{
+        width: 90vw;
+        position: relative;
+        top: 25vw;
+        left: 0vw;
+    }
+    .login-bx{
+        overflow: hidden;
+    }
+    .login-bx > input{
+        width: 75vw;
+    }
+    .login-bx > #btn1{
+        width: 75vw;
+    }
+    #signup-bx{
+        /*overflow-x: hidden;*/
+        width: 100vw;
+    }
+    .form2{
+        /*overflow-x: hidden;*/
+        z-index: 2;
+    }
+    #etxt1, #etxt2, #etxt3, #etxt4{
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+    }
+    #fname{
+        top: -4vw;
+        left: -17vw;
+    }
+    #etxt1{
+        top: -3vw;
+        left: -17vw;
+    }
+    #etxt2{
+        top: -12.4vw;
+        left: 17vw;
+    }
+    #etxt3{
+        top: -13vw;
+        left: -0vw;
+    }
+    #etxt4{
+        top: -13vw;
+        left: -0vw;
+    }
+    #etx{
+        top: .5vw;
+        left: 17vw;
+        margin-right: -20vw;
+    }
+    #xbtn{
+        top: -12vw;
+        left: 32vw;
+    }
+}
