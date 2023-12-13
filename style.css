@@ -358,7 +358,7 @@ input[type="checkbox"]{
     .main-bx{
         display: flex;
         flex-direction: column;
-        height: 100%;
+        min-height: 110vh;
         overflow-x: hidden;
     }
     .img1{
@@ -380,7 +380,7 @@ input[type="checkbox"]{
     .side2{
         width: 90vw;
         position: relative;
-        top: 25vw;
+        top: 35vw;
         left: 0vw;
     }
     .login-bx{
@@ -447,7 +447,7 @@ input[type="checkbox"]{
     .main-bx{
         display: flex;
         flex-direction: column;
-        height: 100%;
+        min-height: 110vh;
         overflow-x: hidden;
     }
     .img1{
