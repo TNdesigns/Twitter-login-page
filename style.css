@@ -352,14 +352,16 @@ input[type="checkbox"]{
         padding: 0px;
     }
     html,body{
-        overflow-x: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
         scroll-behavior: smooth;
     }
     .main-bx{
         display: flex;
         flex-direction: column;
         min-height: 120vh;
-        overflow-x: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     .img1{
         height: 60vw;
